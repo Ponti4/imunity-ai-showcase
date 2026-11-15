@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>암경험자 AI 교육 결과물</title>
+<meta name="description" content="암뮤니티 암경험자 AI 역량강화 교육에서 참여자가 만든 결과물 모음">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+  :root {
+    --ink: #1B2433; --blue: #1F5F9E; --bg: #EBF2FC; --card: #FFFFFF;
+    --muted: #5B6577; --soft: #D6E4F5; --line: #DCE6F3; --warm: #E8913A;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    line-height: 1.6; -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 1080px; margin: 0 auto; padding: 48px 16px 64px; }
+  .kicker { color: var(--blue); font-weight: 700; font-size: 15px; margin: 0 0 6px; }
+  h1 { font-size: clamp(26px, 5vw, 36px); line-height: 1.3; margin: 0 0 12px; letter-spacing: -0.02em; }
+  .lead { color: var(--muted); margin: 0 0 32px; font-size: 16px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 20px; }
+  .card {
+    background: var(--card); border-radius: 16px; overflow: hidden;
+    display: flex; flex-direction: column; text-decoration: none; color: inherit;
+    transition: transform .15s ease, box-shadow .15s ease;
+  }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(31,95,158,.12); }
+  .card:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+  .shot { aspect-ratio: 16 / 10; width: 100%; object-fit: cover; object-position: top; display: block; border-bottom: 1px solid var(--line); }
+  .body { padding: 18px 20px 20px; display: flex; flex-direction: column; flex: 1; }
+  .tag { font-size: 13px; font-weight: 700; color: var(--blue); }
+  .tag.warm { color: var(--warm); }
+  h2 { font-size: 20px; margin: 2px 0 8px; letter-spacing: -0.01em; }
+  .desc { color: var(--muted); font-size: 15px; margin: 0 0 16px; flex: 1; }
+  .open { font-weight: 700; color: var(--blue); font-size: 15px; }
+  .hint { font-size: 13px; color: var(--muted); margin-top: 4px; }
+  .more { margin-top: 28px; background: var(--soft); border-radius: 16px; padding: 20px 22px; }
+  .more h3 { margin: 0 0 6px; font-size: 17px; color: var(--blue); }
+  .more p { margin: 0; }
+  footer { margin-top: 40px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">암경험자 AI 역량강화 교육</p>
+  <h1>AI를 배운 뒤, 바로 일과 일상에서 쓰는 결과물</h1>
+  <p class="lead">국립암센터 2026 AI 교육 참여자들이 AI와 함께 직접 만든 서비스입니다. 화면을 누르면 실제 서비스가 열립니다.</p>
+
+  <div class="grid">
+    <a class="card" href="https://mood-diary-ponti4.web.app/" target="_blank" rel="noopener">
+      <img class="shot" src="img/mood.jpg" alt="마음 일기 서비스 첫 화면. 달력에서 날짜를 골라 그날의 감정을 기록한다">
+      <div class="body">
+        <span class="tag">수업 공통 실습</span>
+        <h2>마음 일기</h2>
+        <p class="desc">1회차에 모두 함께 만드는 예시입니다. 그날의 감정을 기록하고, 언제 어떤 감정을 느꼈는지 한눈에 볼 수 있는 분석을 제공합니다.</p>
+        <span class="open">서비스 열기 →</span>
+      </div>
+    </a>
+
+    <a class="card" href="https://scent-your-way-ciclo.web.app/" target="_blank" rel="noopener">
+      <img class="shot" src="img/scent.jpg" alt="향 브랜드 웹사이트 첫 화면. SCENT, YOUR WAY 문구와 향을 만나기 버튼">
+      <div class="body">
+        <span class="tag warm">창업자 실사용</span>
+        <h2>향 브랜드 웹사이트</h2>
+        <p class="desc">암경험자 창업자가 자사 브랜드 홈페이지를 직접 개발해 운영하고 있습니다. 제품 소개, 구매, 회원 관리 기능을 제공합니다.</p>
+        <span class="open">서비스 열기 →</span>
+      </div>
+    </a>
+
+    <a class="card" href="https://chagyeong-tea-room.ugojee.chatgpt.site/" target="_blank" rel="noopener">
+      <img class="shot" src="img/tea.jpg" alt="3D 온라인 찻집 화면. 마루 위에 찻상과 방석이 놓여 있다">
+      <div class="body">
+        <span class="tag">참여자 작품</span>
+        <h2>AI 메타버스 차모임 공간</h2>
+        <p class="desc">참여자가 AI와 함께 만든 3D 공간입니다. 함께 모여 차를 우리고 마시며 소통하는 온라인 찻집입니다.</p>
+        <span class="open">서비스 열기 →</span>
+        <span class="hint">3D 화면이라 최신 브라우저에서 열어 주세요.</span>
+      </div>
+    </a>
+  </div>
+
+  <section class="more">
+    <h3>이 밖에도</h3>
+    <p>유튜브 영상 자동 제작, 가사 재정관리 프로그램, 음식점 주방 관리 등 업무 자동화부터 웹서비스까지 다양한 결과물이 나왔습니다. 개인이 쓰는 서비스라 공개하지 않습니다.</p>
+  </section>
+
+  <footer>주식회사 암뮤니티 · 암경험자 커뮤니티</footer>
+</main>
+</body>
+</html>
